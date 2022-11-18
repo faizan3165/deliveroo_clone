@@ -13,7 +13,11 @@ export default {
 		{
 			name: 'image',
 			type: 'image',
-			title: 'Image of Category'
+			title: 'Image of Category',
+			validation: (Rule) => Rule.required(),
+			options: {
+				hotspot: true
+			}
 		}
 	]
 };

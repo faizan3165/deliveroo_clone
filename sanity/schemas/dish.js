@@ -25,6 +25,10 @@ export default {
 			name: 'image',
 			type: 'image',
 			title: 'Image of Dish',
+			options: {
+				hotspot: true
+
+			}
 		}
 	]
 };
